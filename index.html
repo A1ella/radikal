@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Radikal</title>
-  </head>
-  <body>
-    <h1>Добро пожаловать на сайт RADIKAL</h1>
-    <p>Скоро здесь будет заработок без вложений!</p>
-  </body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radikal — Заработок без вложений</title>
+  <style>
+    /* Фоновый градиент */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    header {
+      max-width: 900px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+      color: #ff4e50;
+      text-shadow: 0 0 10px #ff4e50;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #ddd;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(255 255 255 / 0.1);
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 30px 40px;
+      box-sizing: border-box;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #ff4e50;
+      margin-bottom: 15px;
+      text-shadow: 0 0 6px #ff4e50;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #eee;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 40px;
+      background: #ff4e50;
+      color: white;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(255, 78, 80, 0.6);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: #e64041;
+      box-shadow: 0 8px 20px rgba(230, 64, 65, 0.8);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #bbb;
+      text-align: center;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    /* Адаптивность */
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .button {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Radikal</h1>
+  <p>Зарабатывай без вложений, приглашая друзей и выполняя простые задания. Начни свой путь к финансовой свободе уже сегодня!</p>
+</header>
+
+<main>
+  <section>
+    <h2>Как это работает?</h2>
+    <p>Ты получаешь задания, которые легко выполнить: опросы, просмотры видео, подписки на каналы. За каждое выполненное задание — реальный доход. Приглашай друзей и увеличивай свой заработок с помощью реферальной системы.</p>
+  </section>
+
+  <section>
+    <h2>Почему Radikal?</h2>
+    <p>Мы предлагаем честные и прозрачные способы заработка без вложений и рисков. Все выплаты гарантированы, а поддержка всегда готова помочь. Присоединяйся к сообществу успешных пользователей!</p>
+  </section>
+
+  <section style="text-align:center;">
+    <a href="https://t.me/your_bot_username?start=YOUR_REF_CODE" class="button" target="_blank" rel="noopener noreferrer">
+      Начать зарабатывать
+    </a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Radikal. Все права защищены.</p>
+</footer>
+
+</body>
 </html>
